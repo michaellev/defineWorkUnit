@@ -40,10 +40,10 @@
         // "Selection Method" dropdown
         selectWay: `שיטת בחירה`,
         wayReshape: `גרפית: תיקון חופשי ע"י קו או פוליגון`,
-        wayClick: `גרפית: עומדים שלמים ע"י הקלקה`,
-        wayRect: `גרפית: עומדים שלמים ע"י ציור מלבן`,
-        wayPoly: `גרפית: עומדים שלמים ע"י ציור פוליגון`,
-        wayList: `עומדים שלמים ע"י רשימה`,
+        wayClick: `גרפית: הקלקה`,
+        wayRect: `גרפית: מלבן`,
+        wayPoly: `גרפית: פוליגון`,
+        wayList: `רשימה`,
 
         // Forest/Compartment/Stands dropdowns
         selectForest: `בחר יער`,
