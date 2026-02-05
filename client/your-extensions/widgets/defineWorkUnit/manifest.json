@@ -12,7 +12,7 @@
     "canCreateMapView": false,
     "hasConfig": false
   },
-  "translatedLocales": ["en", "he"],
+  "translatedLocales": [ "en", "he" ],
   "defaultLocale": "he",
   "jimuVersion": "1.19.0",
   "dependency": [ "jimu-arcgis" ]

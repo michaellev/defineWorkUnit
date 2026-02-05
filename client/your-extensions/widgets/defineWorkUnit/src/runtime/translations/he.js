@@ -72,8 +72,8 @@
         deleteFailed: `מחיקת יחידת העבודה נכשלה`,
 
         // Correction line - add/update this section
-        drawCorrectionPolyline: 'קו,
-        drawCorrectionPolygon: 'פוליגון',
+        drawCorrectionPolyline: `קו`,
+        drawCorrectionPolygon: `פוליגון`,
         correctionLineNoPolygon: `אין פוליגון לתיקון`,
         correctionLineNoIntersection: `הקו אינו חותך את הפוליגון`,
         correctionPolygonAdded: `הפוליגון נוסף ליחידת העבודה`,
