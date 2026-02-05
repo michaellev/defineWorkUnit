@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "exbVersion": "1.19.0",
   "author": "Michael-Lev",
-  "description": "Widget for creating/modifying forest work units by selecting stands",
+  "description": "Widget for creating/modifying forest work units by: selecting-stands / free-hand / along paths+buffer",
   "copyright": "",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
   "properties": {
