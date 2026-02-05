@@ -1,0 +1,19 @@
+{
+  "name": "defineWorkUnit",
+  "label": "הגדרת יחידת עבודה",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.19.0",
+  "author": "Michael-Lev",
+  "description": "Widget for creating/modifying forest work units by selecting stands",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "canCreateMapView": false,
+    "hasConfig": false
+  },
+  "translatedLocales": ["en", "he"],
+  "defaultLocale": "he",
+  "jimuVersion": "1.19.0",
+  "dependency": [ "jimu-arcgis" ]
+}

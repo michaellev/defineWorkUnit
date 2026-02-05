@@ -1,0 +1,1 @@
+node -e "require('./server/src/middlewares/dev/apps/app-download.js').zipApp('0', 'app.zip');"

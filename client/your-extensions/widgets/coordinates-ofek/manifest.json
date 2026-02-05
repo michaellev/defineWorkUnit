@@ -1,0 +1,23 @@
+{
+  "name": "coordinates-ofek",
+  "label": "Coordinates-Ofek",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.19.0",
+  "author": "Michael-Lev",
+  "description": "ESRI coordinates extended to show more info for map or scene, and open apps in new tab, at pointed location.",
+  "copyright": "mlev.mail@gmail.com - Michael Lev, at Ofek Air Photography",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "defaultSize": {
+    "width": 242,
+    "height": 140
+  },
+  "properties": {
+    "hasSettingPage": true
+  },
+  "translatedLocales": [
+    "en",
+    "he"
+  ],
+  "dependency": "jimu-arcgis"
+}
