@@ -23,6 +23,26 @@ export type WidgetState =
   | "edit.selected.baseStands.wayPoly"
   | "edit.selected.baseStands.wayList";
 
+export type WidgetStateNew = //should replace type WidgetState
+  | "init"
+  | "create"
+  | "create.baseStands"
+  | "create.baseStands.wayClick"
+  | "create.baseStands.wayRect"
+  | "create.baseStands.wayPoly"
+  | "create.baseStands.wayList"
+  | "create.baseFreeDraw"      // חדש - במקום wayReshape
+  | "create.baseLine"          // חדש - קו+באפר
+  | "edit"
+  | "edit.selected"
+  | "edit.selected.baseStands"
+  | "edit.selected.baseStands.wayClick"
+  | "edit.selected.baseStands.wayRect"
+  | "edit.selected.baseStands.wayPoly"
+  | "edit.selected.baseStands.wayList"
+  | "edit.selected.baseFreeDraw"   // חדש
+  | "edit.selected.baseLine";      // חדש
+
 // === בסיס לבניית יחידת עבודה ===
 export type BaseType = "stands" | "line" | "freeDraw" | "polygonFromLayer";
 
