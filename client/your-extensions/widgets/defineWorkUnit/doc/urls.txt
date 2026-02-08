@@ -1,0 +1,14 @@
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/src/config/config.ts
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/src/config/layers.config.ts
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/src/config/types.ts
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/src/runtime/translations/default.ts
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/src/runtime/translations/he.js
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/src/runtime/data-source-utils.ts
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/src/runtime/geoUtils.ts
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/src/runtime/map-utils.ts
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/src/runtime/style.ts
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/src/runtime/widget.tsx
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/src/setting/setting.tsx
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/manifest.json
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/doc/spec.docx
+https://raw.githubusercontent.com/michaellev/defineWorkUnit/main/client/your-extensions/widgets/defineWorkUnit/doc/console.txt

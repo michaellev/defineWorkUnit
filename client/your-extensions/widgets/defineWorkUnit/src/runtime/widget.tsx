@@ -6818,7 +6818,7 @@ function Widget(props: AllWidgetProps<any>): React.ReactElement {
             </div>
             <div className="stands-action-buttons">
               <button className="esri-button" onClick={commitWholeStandsRemove}>
-                {translate('commitWholeStandsRemove')}
+                {translate('confirmRemoval')}
               </button>
               <button className="esri-button" onClick={cancelRemoval}>
                 {translate('cancelRemoval')}

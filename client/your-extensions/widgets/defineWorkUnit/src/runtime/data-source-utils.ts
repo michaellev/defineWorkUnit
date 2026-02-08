@@ -343,8 +343,11 @@ export async function initializeAllLayerDataSources(
     return;
   }
 
-  if (!jimuMapView?.jimuLayerViews) {
-    console.warn('[DS] Cannot initialize DataSources - no JimuLayerViews');
+  // Use the getter for jimuLayerViews
+  const layerViews = jimuMapView.jimuLayerViews;
+
+  if (!layerViews || Object.keys(layerViews).length === 0) {
+    console.warn('[DS] Cannot initialize DataSources - no JimuLayerViews found');
     return;
   }
 
@@ -354,44 +357,46 @@ export async function initializeAllLayerDataSources(
   let alreadyExists = 0;
   let failed = 0;
 
-  for (const key in jimuMapView.jimuLayerViews) {
-    const jlv = jimuMapView.jimuLayerViews[key] as JimuLayerView;
+  // Convert to array to handle async/await cleaner in a loop
+  const layerViewKeys = Object.keys(layerViews);
+
+  for (const key of layerViewKeys) {
+    const jlv = layerViews[key];
     const dsId = jlv?.layerDataSourceId;
     const layerTitle = jlv?.layer?.title || 'unknown';
 
     if (!dsId) continue;
 
-    // Check if already initialized
+    // Check if already initialized in the manager
     if (dsManager.getDataSource(dsId)) {
       alreadyExists++;
       continue;
     }
 
     try {
-      // Wait for layer view to be fully loaded
-      if (typeof jlv.whenLayerViewLoaded === 'function') {
-        await jlv.whenLayerViewLoaded();
+      /**
+       * This ensures the JimuLayerView and its underlying JS API LayerView are loaded.
+       */
+      await jimuMapView.whenJimuLayerViewLoaded(jlv.id);
+
+      /**
+       * CORRECTION 2: Use the standard way to fetch the data source.
+       * If jlv.layerDataSourceId exists, we can create it via the manager 
+       * or access it via createDataSource.
+       */
+      let ds = jlv.getLayerDataSource?.();
+
+      if (!ds) {
+        // Attempt to force-create the data source if it hasn't been instantiated yet
+        ds = await dsManager.createDataSource(dsId);
       }
 
-      // Try to get/create DataSource through the layer view
-      const ds = jlv.getLayerDataSource?.();
       if (ds) {
+        // Ensure the DS is ready for queries/use
+        await ds.ready();
         console.log('[DS] Initialized DataSource for:', layerTitle);
         initialized++;
       } else {
-        // Alternative: try to create through map DataSource
-        const mapDsId = jimuMapView.dataSourceId;
-        if (mapDsId) {
-          const mapDs = dsManager.getDataSource(mapDsId);
-          if (mapDs && typeof (mapDs as any).createDataSourceByLayer === 'function') {
-            const createdDs = await (mapDs as any).createDataSourceByLayer(jlv.layer);
-            if (createdDs) {
-              console.log('[DS] Created DataSource via map for:', layerTitle);
-              initialized++;
-              continue;
-            }
-          }
-        }
         console.warn('[DS] Could not initialize DataSource for:', layerTitle);
         failed++;
       }
@@ -401,5 +406,5 @@ export async function initializeAllLayerDataSources(
     }
   }
 
-  console.log(`[DS] DataSource initialization complete: ${initialized} initialized, ${alreadyExists} already existed, ${failed} failed`);
+  console.log(`[DS] Initialization complete: ${initialized} initialized, ${alreadyExists} existing, ${failed} failed`);
 }

@@ -24,8 +24,8 @@ export const LAYERS_CONFIG = {
 
   // שכבת העומדים (read-only)
   stands: {
-    title1: "עומדי יער מתעדכנים",
-    title: "עומדי יער אגול",
+    title: "עומדי יער מתעדכנים",
+    title1: "עומדי יער אגול",
     fields: {
       forestNum: { name: "FOR_NO", display: "מספר יער" },
       forestName: { name: "ForestName", display: "שם יער" },
