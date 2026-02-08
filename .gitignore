@@ -2,6 +2,7 @@ node_modules
 .vs
 .vscode
 ~$*.docx
+~WRL*.tmp
 /*.*
 !.gitignore
 !*.bat

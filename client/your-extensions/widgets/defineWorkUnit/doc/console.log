@@ -1,0 +1,2214 @@
+contentScript.js:49 dispatching the event: emc.ctf.addonInited
+An SSL certificate error occurred when fetching the script.
+init.js:1 Error during service worker registration: SecurityError: Failed to register a ServiceWorker for scope ('https://michaell-1jpx:31901/') with script ('https://michaell-1jpx:31901/service-worker.js'): An SSL certificate error occurred when fetching the script.
+(anonymous) @ init.js:1
+Promise.catch
+(anonymous) @ init.js:1
+VM3385 init.js:5 Using ArcGIS Maps SDK for JavaScript 4.34.7 [Date: 20251104, Revision: 859f337d]
+GE2YDIDY.js:6 Using Calcite Components 3.3.3 [Date: 2025-10-08, Revision: 7391af08e]
+widget.tsx:205 Coordinates-Kkl (id: widget_11) map id: widget_1 20250510-15:00
+VM3385 init.js:5 [esri.layers.FeatureLayer] #fields Layer (title: 'יחידות עבודה טיפול יערני פוליגונלי בדיקות', id: '19b402a56e6-layer-3') references big-integer field(s): 'LockTimestamp', support for which is experimental. Only integers less than 9007199254740991 (Number.MAX_SAFE_INTEGER) are supported.
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+warn @ VM3385 init.js:5
+set @ init.js:5
+set @ init.js:5
+e.read @ init.js:5
+read @ init.js:5
+read @ init.js:5
+(anonymous) @ init.js:5
+e.readLoadable @ init.js:5
+read @ init.js:5
+read @ init.js:5
+initLayerProperties @ init.js:5
+(anonymous) @ init.js:5
+Promise.then
+load @ init.js:5
+load @ init.js:5
+_createLayerView @ init.js:5
+_doWork @ init.js:5
+x @ init.js:5
+(anonymous) @ init.js:5
+widget.tsx:426 [MAP] Found map widget: widget_1
+widget.tsx:652 [CACHE] Loaded work units index from localStorage: 510
+ [WU POLYGON EFFECT] State: init Stands count: 0 isRelevantState: false
+ [MAP] JimuMapView ready
+ [MAP] Layers found: {forests: 'יער בניהול קק"ל מתארח', compartments: 'חלקות יער', stands: 'עומדי יער מתעדכנים', workUnits: 'יחידות עבודה טיפול יערני פוליגונלי בדיקות'}
+data-source-utils.ts:354 [DS] Initializing all layer DataSources...
+widget.tsx:452 [LAYERS] Orange highlight layer created
+widget.tsx:464 [LAYERS] Cyan standsToAdd layer created
+widget.tsx:476 [LAYERS] Compartments layer created
+widget.tsx:488 [LAYERS] Selected compartment layer created
+widget.tsx:500 [LAYERS] Sketch layer created
+widget.tsx:520 [LAYERS] SketchViewModel created
+widget.tsx:537 [LAYERS] Red standsToRemove layer created
+widget.tsx:549 [LAYERS] Work unit polygon layer created
+widget.tsx:561 [LAYERS] Work unit highlight layer created
+widget.tsx:573 [LAYERS] Compartment labels layer created
+widget.tsx:585 [LAYERS] Hover highlight layer created
+data-source-utils.ts:97 [DS] DataSource ID exists but not initialized: dataSource_2-19b6952a0ed-layer-8
+data-source-utils.ts:102 [DS] DataSource not found for layer: יער בניהול קק"ל מתארח
+data-source-utils.ts:159 [DS] Cannot apply filter via DataSource - not found for: יער בניהול קק"ל מתארח
+data-source-utils.ts:163 [DS] Fallback: Applied filter directly to layer: יער בניהול קק"ל מתארח -> 1=1
+data-source-utils.ts:97 [DS] DataSource ID exists but not initialized: dataSource_2-19b402a56e6-layer-3
+data-source-utils.ts:102 [DS] DataSource not found for layer: יחידות עבודה טיפול יערני פוליגונלי בדיקות
+data-source-utils.ts:159 [DS] Cannot apply filter via DataSource - not found for: יחידות עבודה טיפול יערני פוליגונלי בדיקות
+data-source-utils.ts:163 [DS] Fallback: Applied filter directly to layer: יחידות עבודה טיפול יערני פוליגונלי בדיקות -> 1=1
+widget.tsx:734 [MASTER] init: forests+workUnits visible, compartments+stands hidden
+widget.tsx:525 [PROJECTION] Projection engine loaded
+widget.tsx:433 [INIT] geoUtils initialized
+data-source-utils.ts:404 [DS] Error initializing DataSource for: חלקות יער Error: Can not create data source.dataSource_2-19b694fe9c8-layer-7
+    at gA.createDataSource (index.js:2:658714)
+    at data-source-utils.ts:391:30
+    at Generator.next (<anonymous>)
+    at fulfilled (data-source-utils.ts:14:4)
+(anonymous) @ data-source-utils.ts:404
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+(anonymous) @ data-source-utils.ts:14
+__webpack_modules__../your-extensions/widgets/defineWorkUnit/src/runtime/data-source-utils.ts.__awaiter @ data-source-utils.ts:14
+initializeAllLayerDataSources @ data-source-utils.ts:337
+(anonymous) @ widget.tsx:5882
+(anonymous) @ set-public-path.ts:5
+__awaiter @ set-public-path.ts:5
+onActiveViewChange @ widget.tsx:5862
+onActiveViewChange @ index.js:1
+checkPropCallbacksForCurrentMapWidgetId @ index.js:1
+componentDidMount @ index.js:1
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+data-source-utils.ts:404 [DS] Error initializing DataSource for: יחידות עבודה טיפול יערני פוליגונלי בדיקות Error: Can not create data source.dataSource_2-19b402a56e6-layer-3
+    at gA.createDataSource (index.js:2:658714)
+    at data-source-utils.ts:391:30
+    at Generator.next (<anonymous>)
+    at fulfilled (data-source-utils.ts:14:4)
+(anonymous) @ data-source-utils.ts:404
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+(anonymous) @ data-source-utils.ts:14
+__webpack_modules__../your-extensions/widgets/defineWorkUnit/src/runtime/data-source-utils.ts.__awaiter @ data-source-utils.ts:14
+initializeAllLayerDataSources @ data-source-utils.ts:337
+(anonymous) @ widget.tsx:5882
+(anonymous) @ set-public-path.ts:5
+__awaiter @ set-public-path.ts:5
+onActiveViewChange @ widget.tsx:5862
+onActiveViewChange @ index.js:1
+checkPropCallbacksForCurrentMapWidgetId @ index.js:1
+componentDidMount @ index.js:1
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+data-source-utils.ts:404 [DS] Error initializing DataSource for: עומדי יער מתעדכנים Error: Can not create data source.dataSource_2-19b402aaa38-layer-4
+    at gA.createDataSource (index.js:2:658714)
+    at data-source-utils.ts:391:30
+    at Generator.next (<anonymous>)
+    at fulfilled (data-source-utils.ts:14:4)
+(anonymous) @ data-source-utils.ts:404
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+(anonymous) @ data-source-utils.ts:14
+__webpack_modules__../your-extensions/widgets/defineWorkUnit/src/runtime/data-source-utils.ts.__awaiter @ data-source-utils.ts:14
+initializeAllLayerDataSources @ data-source-utils.ts:337
+(anonymous) @ widget.tsx:5882
+(anonymous) @ set-public-path.ts:5
+__awaiter @ set-public-path.ts:5
+onActiveViewChange @ widget.tsx:5862
+onActiveViewChange @ index.js:1
+checkPropCallbacksForCurrentMapWidgetId @ index.js:1
+componentDidMount @ index.js:1
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+data-source-utils.ts:404 [DS] Error initializing DataSource for: עומדי יער אגול Error: Can not create data source.dataSource_2-19c2d6abb58-layer-9
+    at gA.createDataSource (index.js:2:658714)
+    at data-source-utils.ts:391:30
+    at Generator.next (<anonymous>)
+    at fulfilled (data-source-utils.ts:14:4)
+(anonymous) @ data-source-utils.ts:404
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+(anonymous) @ data-source-utils.ts:14
+__webpack_modules__../your-extensions/widgets/defineWorkUnit/src/runtime/data-source-utils.ts.__awaiter @ data-source-utils.ts:14
+initializeAllLayerDataSources @ data-source-utils.ts:337
+(anonymous) @ widget.tsx:5882
+(anonymous) @ set-public-path.ts:5
+__awaiter @ set-public-path.ts:5
+onActiveViewChange @ widget.tsx:5862
+onActiveViewChange @ index.js:1
+checkPropCallbacksForCurrentMapWidgetId @ index.js:1
+componentDidMount @ index.js:1
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+data-source-utils.ts:404 [DS] Error initializing DataSource for: יער בניהול קק"ל מתארח Error: Can not create data source.dataSource_2-19b6952a0ed-layer-8
+    at gA.createDataSource (index.js:2:658714)
+    at data-source-utils.ts:391:30
+    at Generator.next (<anonymous>)
+    at fulfilled (data-source-utils.ts:14:4)
+(anonymous) @ data-source-utils.ts:404
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+fulfilled @ data-source-utils.ts:14
+Promise.then
+step @ data-source-utils.ts:14
+(anonymous) @ data-source-utils.ts:14
+__webpack_modules__../your-extensions/widgets/defineWorkUnit/src/runtime/data-source-utils.ts.__awaiter @ data-source-utils.ts:14
+initializeAllLayerDataSources @ data-source-utils.ts:337
+(anonymous) @ widget.tsx:5882
+(anonymous) @ set-public-path.ts:5
+__awaiter @ set-public-path.ts:5
+onActiveViewChange @ widget.tsx:5862
+onActiveViewChange @ index.js:1
+checkPropCallbacksForCurrentMapWidgetId @ index.js:1
+componentDidMount @ index.js:1
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+Ru @ client.js:2
+xu @ client.js:2
+data-source-utils.ts:409 [DS] Initialization complete: 0 initialized, 0 existing, 5 failed
+data-source-utils.ts:278 [DS DEBUG] Available DataSources
+data-source-utils.ts:281 Map DataSource ID: dataSource_2
+data-source-utils.ts:285 JimuLayerViews:
+data-source-utils.ts:289   - חלקות יער: dsId=dataSource_2-19b694fe9c8-layer-7, hasGetLayerDS=true
+data-source-utils.ts:289   - יחידות עבודה טיפול יערני פוליגונלי בדיקות: dsId=dataSource_2-19b402a56e6-layer-3, hasGetLayerDS=true
+data-source-utils.ts:289   - עומדי יער מתעדכנים: dsId=dataSource_2-19b402aaa38-layer-4, hasGetLayerDS=true
+data-source-utils.ts:289   - עומדי יער אגול: dsId=dataSource_2-19c2d6abb58-layer-9, hasGetLayerDS=true
+data-source-utils.ts:289   - יער בניהול קק"ל מתארח: dsId=dataSource_2-19b6952a0ed-layer-8, hasGetLayerDS=true
+data-source-utils.ts:296 All registered DataSources: ['dataSource_2']
+data-source-utils.ts:303 Map DataSource methods: {hasGetChildDataSource: true, hasGetChildDataSources: true, hasGetDataSourceByLayer: true}
+data-source-utils.ts:312 Map DataSource children count: 0
+widget.tsx:5888 [LAYERS SR] forests: 2039
+widget.tsx:5889 [LAYERS SR] compartments: 2039
+widget.tsx:5890 [LAYERS SR] stands: 2039
+widget.tsx:5891 [LAYERS SR] workUnits: 2039
+widget.tsx:4984 [STATE] init -> edit | User clicked Edit
+data-source-utils.ts:97 [DS] DataSource ID exists but not initialized: dataSource_2-19b6952a0ed-layer-8
+data-source-utils.ts:102 [DS] DataSource not found for layer: יער בניהול קק"ל מתארח
+data-source-utils.ts:159 [DS] Cannot apply filter via DataSource - not found for: יער בניהול קק"ל מתארח
+data-source-utils.ts:163 [DS] Fallback: Applied filter directly to layer: יער בניהול קק"ל מתארח -> 1=1
+data-source-utils.ts:97 [DS] DataSource ID exists but not initialized: dataSource_2-19b402a56e6-layer-3
+data-source-utils.ts:102 [DS] DataSource not found for layer: יחידות עבודה טיפול יערני פוליגונלי בדיקות
+data-source-utils.ts:159 [DS] Cannot apply filter via DataSource - not found for: יחידות עבודה טיפול יערני פוליגונלי בדיקות
+data-source-utils.ts:163 [DS] Fallback: Applied filter directly to layer: יחידות עבודה טיפול יערני פוליגונלי בדיקות -> WPFSRequestStatus IN ('בהכנה','הוגש למחלקת יער')
+widget.tsx:782 [MASTER] edit: forests visible, workUnits filtered to editable, others hidden
+widget.tsx:1276 [EDIT] Setting up click handler for edit mode
+widget.tsx:1281 [EDIT] Popups disabled
+widget.tsx:2281 [HIGHLIGHT] Cyan: 0 stands (wayList: false)
+widget.tsx:2303 [HIGHLIGHT] Red: 0 stands
+widget.tsx:2316 [WU POLYGON EFFECT] State: edit Stands count: 0 isRelevantState: false
+widget.tsx:1285 [EDIT] Click detected, showWorkUnitSelectorRef.current = false
+widget.tsx:1293 [EDIT] Map clicked, checking for work unit...
+widget.tsx:1309 [EDIT] Found 1 work units at click location
+widget.tsx:1370 [EDIT] Work unit clicked, objectId: 513
+widget.tsx:1395 [EDIT] Work unit data: {objectId: 513, forestNum: '3410', forestName: 'הזורע', compartments: '5', stands: '5-106,5-107,5-136,5-137', …}
+widget.tsx:1417 [LOCK] No lock on server, acquiring...
+VM3385 init.js:5 [esri.layers.FeatureLayer] #fields Layer (title: 'יחידות עבודה טיפול יערני פוליגונלי בדיקות', id: '19b402a56e6-layer-3') references big-integer field(s): 'LockTimestamp', support for which is experimental. Only integers less than 9007199254740991 (Number.MAX_SAFE_INTEGER) are supported.
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+warn @ VM3385 init.js:5
+set @ init.js:5
+set @ init.js:5
+e.read @ init.js:5
+read @ init.js:5
+read @ init.js:5
+(anonymous) @ init.js:5
+e.readLoadable @ init.js:5
+read @ init.js:5
+read @ init.js:5
+initLayerProperties @ init.js:5
+(anonymous) @ init.js:5
+Promise.then
+load @ init.js:5
+load @ init.js:5
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+U @ index.js:1
+fetchSchemaWithLayer @ index.js:1
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+N @ index.js:1
+fetchSchemaWithLayer @ index.js:1
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+U @ index.js:1
+fetchSchema @ index.js:1
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+N @ index.js:1
+fetchSchema @ index.js:1
+(anonymous) @ index.js:2
+Promise.then
+(anonymous) @ index.js:2
+Promise.then
+(anonymous) @ index.js:2
+Promise.then
+createDataSource @ index.js:2
+createChildDataSourceByLayer @ index.js:1
+createChildDataSourceById @ index.js:1
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+W @ index.js:1
+createDataSourceById @ index.js:1
+createDataSourceByLayer @ index.js:1
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+Pe @ index.js:1
+createLayerDataSource @ index.js:1
+createLayerDataSource @ index.js:1
+createLayerDataSource @ index.js:1
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+Pe @ index.js:1
+getOrCreateLayerDataSource @ index.js:1
+getOrCreateLayerDataSource @ index.js:1
+(anonymous) @ index.js:1
+n @ index.js:1
+Promise.then
+l @ index.js:1
+(anonymous) @ index.js:1
+ii @ index.js:1
+selectDataSourceOrFeatureByFeatures @ index.js:1
+(anonymous) @ index.js:1
+Promise.then
+onClick @ index.js:1
+(anonymous) @ init.js:5
+_handleEvent @ init.js:5
+(anonymous) @ init.js:5
+_continuePropagation @ init.js:5
+_doNewPropagation @ init.js:5
+_emitInputEvent @ init.js:5
+emit @ init.js:5
+onEmit @ init.js:5
+emit @ init.js:5
+_doubleClickTimeoutExceeded @ MapView.js:4
+(anonymous) @ MapView.js:4
+setTimeout
+setTimeout @ init.js:5
+_startClick @ MapView.js:4
+_handleImmediateClick @ MapView.js:4
+(anonymous) @ MapView.js:4
+_handleEvent @ init.js:5
+(anonymous) @ init.js:5
+_continuePropagation @ init.js:5
+_doNewPropagation @ init.js:5
+_emitInputEvent @ init.js:5
+_emitInputEventFromSource @ init.js:5
+_onEventReceived @ init.js:5
+_handlePointerPreventDefault @ MapView.js:4
+map-utils.ts:824 [LOCK] Lock acquired successfully for objectId: 513 timestamp: 1770558361981
+widget.tsx:1466 [LOCK] Lock acquired, proceeding to edit
+widget.tsx:1470 [LOCK] Saved timestamp to localStorage: 1770558361981
+widget.tsx:1480 [EDIT] Loading all stands for forest: 3410
+widget.tsx:4678 [STANDS CACHE] Using localStorage for forest: 3410 stands: 227
+widget.tsx:1485 [EDIT] Parsed stands: 4
+widget.tsx:1499 [EDIT] Matched stands with geometry: 4
+widget.tsx:1508 [EDIT] Zoomed to work unit: T341034
+widget.tsx:4984 [STATE] edit -> edit.selected.baseStands | Work unit selected
+widget.tsx:1543 [EDIT] Click handler removed, popups restored
+data-source-utils.ts:97 [DS] DataSource ID exists but not initialized: dataSource_2-19b6952a0ed-layer-8
+data-source-utils.ts:102 [DS] DataSource not found for layer: יער בניהול קק"ל מתארח
+data-source-utils.ts:159 [DS] Cannot apply filter via DataSource - not found for: יער בניהול קק"ל מתארח
+data-source-utils.ts:163 [DS] Fallback: Applied filter directly to layer: יער בניהול קק"ל מתארח -> FOR_Num = 3410
+data-source-utils.ts:97 [DS] DataSource ID exists but not initialized: dataSource_2-19b402aaa38-layer-4
+data-source-utils.ts:102 [DS] DataSource not found for layer: עומדי יער מתעדכנים
+data-source-utils.ts:159 [DS] Cannot apply filter via DataSource - not found for: עומדי יער מתעדכנים
+data-source-utils.ts:163 [DS] Fallback: Applied filter directly to layer: עומדי יער מתעדכנים -> FOR_NO = 3410
+widget.tsx:810 [MASTER] edit.selected.baseStands: filtered forest, stands visible
+widget.tsx:1000 [FOCUS] Skipping forest zoom in edit mode
+widget.tsx:2281 [HIGHLIGHT] Cyan: 0 stands (wayList: false)
+widget.tsx:2303 [HIGHLIGHT] Red: 0 stands
+widget.tsx:2316 [WU POLYGON EFFECT] State: edit.selected.baseStands Stands count: 4 isRelevantState: true
+widget.tsx:2329 [WU POLYGON EFFECT] Using corrected polygon
+widget.tsx:4813 [WU POLYGON] updateWorkUnitPolygonDirect called
+widget.tsx:4838 [WU POLYGON] Updated polygon directly
+widget.tsx:2483 [LOCK] Starting heartbeat
+widget.tsx:2461 [WATCH] definitionExpression changed: null -> FOR_NO = 3410
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26477/39159/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26477/39160/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26477/39161/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26477/39162/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26477/39163/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26478/39159/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26478/39160/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26478/39161/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26478/39162/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26478/39163/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26479/39159/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26479/39160/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26479/39161/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26479/39162/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26479/39163/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26480/39159/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26480/39160/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26480/39161/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26480/39162/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26480/39163/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13237/19578/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13237/19579/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13237/19580/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13237/19581/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13237/19582/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13237/19583/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13238/19578/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13238/19579/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13238/19580/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13238/19581/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13238/19582/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13238/19583/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13239/19578/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13239/19579/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13239/19580/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13239/19581/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13239/19582/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13239/19583/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13240/19578/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13240/19579/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13240/19580/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13240/19581/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13240/19582/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 15/13240/19583/0. {error: {…}}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26477/39159/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26477/39160/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26477/39161/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26477/39162/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26477/39163/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26478/39159/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26478/39160/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26478/39161/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26478/39162/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26478/39163/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26479/39159/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26479/39160/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26479/39161/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26479/39162/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26479/39163/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26480/39159/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26480/39160/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26480/39161/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26480/39162/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.views.2d.layers.features.FeatureSourceEventLog] Failed to load tile 16/26480/39163/0. {error: Error: Aborted
+    at createAbortError (blob:https://michaell-1jpx:31901/731b0cf4-e917-4392-b5c8-20…}
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+error @ VM3385 init.js:5
+_handleTileEvent @ FeatureLayerView2D.js:4
+onEvent @ FeatureLayerView2D.js:4
+_onInvokeMessage @ init.js:5
+(anonymous) @ init.js:5
+_process @ init.js:5
+setTimeout
+push @ init.js:5
+_processMessage @ init.js:5
+_onMessage @ init.js:5
+VM3385 init.js:5 [esri.layers.FeatureLayer] #fields Layer (title: 'יחידות עבודה טיפול יערני פוליגונלי בדיקות', id: '19b402a56e6-layer-3') references big-integer field(s): 'LockTimestamp', support for which is experimental. Only integers less than 9007199254740991 (Number.MAX_SAFE_INTEGER) are supported.
+i @ VM3385 init.js:5
+_log @ VM3385 init.js:5
+warn @ VM3385 init.js:5
+set @ init.js:5
+set @ init.js:5
+e.read @ init.js:5
+read @ init.js:5
+read @ init.js:5
+(anonymous) @ init.js:5
+e.readLoadable @ init.js:5
+read @ init.js:5
+read @ init.js:5
+initLayerProperties @ init.js:5
+(anonymous) @ init.js:5
+Promise.then
+load @ init.js:5
+load @ init.js:5
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+U @ index.js:1
+fetchSchemaWithLayer @ index.js:1
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+N @ index.js:1
+fetchSchemaWithLayer @ index.js:1
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+U @ index.js:1
+fetchSchema @ index.js:1
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+N @ index.js:1
+fetchSchema @ index.js:1
+(anonymous) @ index.js:2
+Promise.then
+(anonymous) @ index.js:2
+Promise.then
+(anonymous) @ index.js:2
+Promise.then
+createDataSource @ index.js:2
+createChildDataSourceByLayer @ index.js:1
+createChildDataSourceById @ index.js:1
+(anonymous) @ index.js:1
+(anonymous) @ index.js:1
+W @ index.js:1
+createDataSourceById @ index.js:1
+(anonymous) @ index.js:2
+index.js:2 Unhandled case: outFields
+(anonymous) @ index.js:2
+(anonymous) @ index.js:2
+sb @ index.js:2
+changeHashObjectByDataSourceSelection @ index.js:2
+changeSelectionInUrl @ index.js:1
+updateSelectionInfoOfDerivedDssAndChangeUrl @ index.js:1
+selectRecords @ index.js:1
+(anonymous) @ index.js:1
+index.js:2 Unhandled case: returnGeometry
+(anonymous) @ index.js:2
+(anonymous) @ index.js:2
+sb @ index.js:2
+changeHashObjectByDataSourceSelection @ index.js:2
+changeSelectionInUrl @ index.js:1
+updateSelectionInfoOfDerivedDssAndChangeUrl @ index.js:1
+selectRecords @ index.js:1
+(anonymous) @ index.js:1
+index.js:2 Unhandled case: sqlExpression
+(anonymous) @ index.js:2
+(anonymous) @ index.js:2
+sb @ index.js:2
+changeHashObjectByDataSourceSelection @ index.js:2
+changeSelectionInUrl @ index.js:1
+updateSelectionInfoOfDerivedDssAndChangeUrl @ index.js:1
+selectRecords @ index.js:1
+(anonymous) @ index.js:1
